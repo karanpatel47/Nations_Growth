@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Impact from "./pages/Impact";
 import Analytics from "./pages/Analytics";
+import Countries from "./pages/Countries";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/countries" element={<Countries />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/investments" element={<Investments />} />
         <Route path="/portfolio" element={<Portfolio />} />

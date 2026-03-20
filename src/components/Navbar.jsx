@@ -20,6 +20,7 @@ export default function Navbar() {
         { name: "Portfolio", path: "/portfolio" },
         { name: "Impact", path: "/impact" },
         { name: "Analytics", path: "/analytics" },
+        { name: "Countries", path: "/countries" },
     ];
 
     const isActive = (path) => location.pathname === path;
